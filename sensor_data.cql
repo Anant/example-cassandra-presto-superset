@@ -1,7 +1,4 @@
-CREATE KEYSPACE sensor_data
-WITH replication = {
-  'class': 'NetworkTopologyStrategy', 
-    'DC-Houston': 1 };
+CREATE KEYSPACE IF NOT EXISTS sensor_data WITH replication = {'class': 'SimpleStrategy', 'replication_factor': '1'}  AND durable_writes = true;
 USE sensor_data;
 CREATE TABLE IF NOT EXISTS networks (
   bucket TEXT,

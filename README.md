@@ -104,6 +104,18 @@ Login using:
     username: admin
     pass: admin
 
+### Using MapBox Diagrams
+In order to use charts that use Mapbox, you will have to add a mapbox api key. [Create a token](https://account.mapbox.com/access-tokens/create) if you don't have one already. However the default public api key works just fine.
+
+Then add it to the env file for superset docker images:
+```
+vim ../superset/docker/.env-non-dev
+```
+Then in your favorite text editor:
+```
+```
+
+
 # Credits
 Our spaceship dataset is based on the SparkSQL notebook from [Datastax Studio](https://www.datastax.com/dev/datastax-studio). For the basic schema which this was based on see [examples provided here](https://github.com/DataStax-Examples/getting-started-with-astra-python/blob/master/schema.cql).
 
