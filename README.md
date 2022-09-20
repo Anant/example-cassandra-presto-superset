@@ -111,8 +111,9 @@ Then add it to the env file for superset docker images:
 ```
 vim ../superset/docker/.env-non-dev
 ```
-Then in your favorite text editor:
+Then in your favorite text editor add this:
 ```
+MAPBOX_API_KEY='XXYYZZ'
 ```
 
 
