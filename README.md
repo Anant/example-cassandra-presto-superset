@@ -1,4 +1,4 @@
-# Connect SuperSet and Cassandra using Presto
+# Connect Superset and Cassandra using Presto
 
 
 
