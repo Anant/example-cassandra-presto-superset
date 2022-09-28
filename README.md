@@ -1,6 +1,6 @@
 # Connect Superset and Cassandra using Presto
 
-
+See accompanying blog post: https://anant.us/blog/visualize-data-from-cassandra-in-superset/
 
 ### 1. Start Presto and Cassandra Docker Containers
 **IMPORTANT: Remember to make the ports public when the dialog shows in the bottom righthand corner!**
