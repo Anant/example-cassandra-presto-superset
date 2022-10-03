@@ -1,6 +1,7 @@
-# Connect SuperSet and Cassandra using Presto
+# Connect Superset and Cassandra using Presto
+![demo-chart superset-cassandra-presto-C_+Presto+Superset drawio](https://user-images.githubusercontent.com/22231483/193618601-07e88f29-6f8d-40a6-8207-07d15d3d6fd7.png)
 
-
+See accompanying blog post: https://anant.us/blog/visualize-data-from-cassandra-in-superset/
 
 ### 1. Start Presto and Cassandra Docker Containers
 **IMPORTANT: Remember to make the ports public when the dialog shows in the bottom righthand corner!**
@@ -111,8 +112,9 @@ Then add it to the env file for superset docker images:
 ```
 vim ../superset/docker/.env-non-dev
 ```
-Then in your favorite text editor:
+Then in your favorite text editor add this:
 ```
+MAPBOX_API_KEY='XXYYZZ'
 ```
 
 
