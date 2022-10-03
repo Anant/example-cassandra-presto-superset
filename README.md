@@ -101,8 +101,8 @@ docker-compose -f docker-compose-non-dev.yml up
 http://localhost:8088
 
 Login using:
-    username: admin
-    pass: admin
+- username: `admin`
+- pass: `admin`
 
 ### Using MapBox Diagrams
 In order to use charts that use Mapbox, you will have to add a mapbox api key. [Create a token](https://account.mapbox.com/access-tokens/create) if you don't have one already. However the default public api key works just fine.
